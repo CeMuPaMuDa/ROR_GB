@@ -4,9 +4,9 @@ url = 'https://gb.ru'
 response = Faraday.get(url)
 html = response.body
 arr =  HtmlToPlainText.plain_text(html).lines(chomp: true)
-phone = []
+phones = []
 arr.each do |num|
   phone.push num if num.match(/^(\s*)?(\+)?([- _():=+]?\d[- _():=+]?){10,14}(\s*)?$/)
 end
 puts "Телефоны тех.поддержки GeekBrains: "
-puts phone.uniq
+puts phones.uniq
