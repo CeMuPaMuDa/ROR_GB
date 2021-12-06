@@ -7,8 +7,9 @@
     * irb(main):001:0> irb = File.new('irb_lp.txt', 'w')
     => #<File:irb_lp.txt>
     * irb(main):002:0> $LOAD_PATH.each{|el| irb.puts el}
-    * irb(main):003:0> exit`
-2. Файлы задания №1 [находятся тут]()
+    * irb(main):003:0> exit
+2. Файлы задания №1 [находятся тут](https://github.com/CeMuPaMuDa/ROR_GB/tree/master/lesson3/lib/task1). 
+3. 
 
    
 
