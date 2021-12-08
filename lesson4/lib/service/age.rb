@@ -27,6 +27,7 @@ class Age
       @@current_month += 12
     end
   end
+
   # rubocop:enable Style/GuardClause
   def calculate_age
     @calculated_date = @@current_date - @birth_date
