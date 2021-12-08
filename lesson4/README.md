@@ -1,24 +1,9 @@
-# README
+# Ruby on Rails
+***
+## [Урок 4]('https://github.com/CeMuPaMuDa/ROR_GB/tree/master/lesson4')
+### Задание 1
+Не хотелось много кода писать в самом **rake** файле, потому основной код в класе Age, (файл в ***lib/***)
+Пока без валидации введенных даных (добавлю чуть позже)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Задание 2-4   
+1. Вроде как не сложно, если я правильно поняла задания. 
